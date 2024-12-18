@@ -144,12 +144,52 @@ button{
     font-size: 15px;
     
 }
+
+@media only screen and (max-width: 500px) and (orientation: landscape) {
+    .COVER {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .CONTENT {
+        margin-top: 10%;
+    }
+
+    .CONTENT h1 {
+        font-size: 8vw;
+    }
+
+    .CONTENT h2 {
+        font-size: 9vw;
+    }
+
+    .CONTAINER {
+        margin-top: 20%;
+        width: 60%;
+        height: auto;
+    }
+
+    .enter {
+        margin-left: 0;
+        margin-bottom: 25px;
+    }
+
+    input {
+        width: 70%;
+    }
+
+    button {
+        width: 70%;
+        margin-left: 0;
+    }
+}
+/*
+
 @media only screen and (max-width:500px) {
-    /* For mobile phones: */
+    
     body{
         background-image: url(BG2.jpg);
         background-repeat: no-repeat;
-        background-size: cover;
     }
     .CONTENT{
         margin-left: 20vw;
@@ -167,8 +207,5 @@ button{
     button{
         margin-left: 46vw;
     }
-    input{
-        width: 100px;
-    }
-    
   }
+  */
