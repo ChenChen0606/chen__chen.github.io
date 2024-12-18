@@ -11,7 +11,10 @@
 body{
     background-color: black;
 }
-
+.container{
+    width:100%;
+    
+}
 .header{
     background: rgba(24, 23, 23, 0.3);
     height: 6rem;
@@ -23,7 +26,6 @@ body{
     font-weight: 500;
     letter-spacing: 1px;
    
- 
 }
 a{
     margin-right:55px;
@@ -51,8 +53,8 @@ i:hover{
 
 .circle{
    
-    width:500px;
-    height: 500px;
+    width:26.5vw;
+    height: 26.2vw;
     background: transparent;
     border-radius: 50%;
     border: 10px solid rgb(145, 3, 3);
@@ -68,13 +70,13 @@ i:hover{
 .pic{
     position: absolute;
     margin-left: 8%;
-    margin-top: 45px;
+    margin-top: 2.2vw;
     width:31.8vw;
 }
 
 .image .content{
     text-align: center;
-    margin-left:250px;
+    margin-left:13.1vw;
     margin-top: 18%;
 }
 .image .content .name{
@@ -103,12 +105,12 @@ i:hover{
 }
 .about{
     background-color: #000000;
-    margin-left: 1500px;
-    max-width: 250px;
+    margin-left: 79vw;
+    max-width: 12vw;
     text-align: center;
-    margin-top: -20px;
+    margin-top: -1vw;
     position: relative;
-    font-size:25px;
+    font-size:1.2vw;
     text-shadow: 0 0 5px #ffffff;
 }
 
@@ -151,7 +153,7 @@ i:hover{
     font-size: 20px;
 }
 .Contact .heart{
-    font-size:250px;
+    font-size:12.9vw;
     color: #d41507;
     margin-bottom: 2.5vw;
     
