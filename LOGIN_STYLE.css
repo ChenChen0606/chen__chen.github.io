@@ -146,11 +146,25 @@ button{
 }
 @media only screen and (max-width:500px) {
     /* For mobile phones: */
+    body{
+        background-image: url(BG2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
     .CONTENT{
         margin-left: 20vw;
     }
     .CONTAINER{
-        margin-left: 5vw;
+        margin-left: 8vw;
         margin-bottom: 5vw;
+        width: 80vw;
+        
+    }
+    .enter{
+        margin-bottom: 40px;
+        margin-left: 8vw;
+    }
+    button{
+        margin-left: 46vw;
     }
   }
